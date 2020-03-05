@@ -1,0 +1,31 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor tmp/config.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "dependencies": {
+    "@types/cucumber": "^4.0.4",
+    "@types/jasmine": "^3.5.0",
+    "@types/jasminewd2": "^2.0.8",
+    "@types/node": "^10.12.18",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.1.0",
+    "jasmine": "^3.3.1",
+    "protractor": "5.4.2",
+    "ts-node": "^7.0.1",
+    "typescript": "3.4.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "protractor-cucumber-framework": "^6.2.0"
+  }
+}
